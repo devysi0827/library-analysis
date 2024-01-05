@@ -6,13 +6,17 @@ var __importDefault =
 
 Object.defineProperty(exports, "__esModule", { value: !0 }),
   (exports.TextElement =
+    // mean. 이전 텍스트 값
     exports.usePrevious =
     exports.getLineHeight =
     exports.useFontLoader =
+    // mean. 글을 읽는 방향을 가져옴
     exports.getDir =
+    // mean. 오른쪽에서 왼쪽으로 읽는 텍스트인지 check
     exports.isRTLText =
-      void 0);
+      void 0); // grammer. undefined 설정하는 방식
 
+// import
 const react_1 = __importDefault(require("react"));
 const mobx_react_lite_1 = require("mobx-react-lite");
 const react_konva_1 = require("react-konva");
